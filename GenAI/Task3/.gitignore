@@ -1,0 +1,16 @@
+# Ignore virtual environments
+gptenv/
+
+# Ignore Python caches
+__pycache__/
+*.pyc
+
+# Ignore OS metadata
+.DS_Store
+
+# Ignore large model checkpoints to avoid exceeding Git/GitHub limits
+training/*.pt
+*.pt
+
+# Ignore local environment variables
+.env
