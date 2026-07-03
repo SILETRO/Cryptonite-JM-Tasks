@@ -1,0 +1,5 @@
+*wiki*.txt
+wikitext-*.txt
+*.pth
+__pycache__/
+*.pyc
